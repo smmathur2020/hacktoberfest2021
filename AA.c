@@ -32,7 +32,7 @@ void findMajority(int arr[], int size)
 } 
   
 // Driver code 
-int main() 
+int main(void)      //Execution of every program start from main() function.
 { 
     int arr[] = {1,3,4,4,1,4,4}; 
     int size = sizeof(arr) / sizeof(arr[0]); 
